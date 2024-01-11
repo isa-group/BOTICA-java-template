@@ -1,5 +1,8 @@
 # BOTICA Java Template
 
+> [!NOTE]  
+> You can see a use case of the template with [RESTest](https://github.com/isa-group/RESTest) at [BOTICA-RESTest](https://github.com/migromarj/BOTICA-RESTest).
+
 ## Running your proyect with BOTICA
 
 1. **Use this repository as a template for your project.**
@@ -9,8 +12,7 @@
 3. **Configure your project.**
     1. Define your bot properties file according to your needs. You can find more information in the [BOTICA Wiki](https://github.com/migromarj/BOTICA/wiki/Bot-definition-file).
     2. Create all the necessary _Launcher_ classes based on the types of bots you have defined. You can find more information in the [BOTICA Wiki](https://github.com/migromarj/BOTICA/wiki/Launcher-classes).
-  
-    You can see a use case of the template with [RESTest](https://github.com/isa-group/RESTest) at [BOTICA-RESTest](https://github.com/migromarj/BOTICA-RESTest).
+    3. Create the necessary property files to define how configuration file generation and launching of the Collector bot will be carried out. You can find more information in the [BOTICA Wiki](https://github.com/migromarj/BOTICA/wiki/Example-of-use#3-creation-of-properties-files).
 
 4. **Compiling the project.**
 
