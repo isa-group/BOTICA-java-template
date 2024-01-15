@@ -34,12 +34,17 @@
 
 6. **Launch the BOTICA environment.**
 
-    Run the following maven command at the root of the project:
+    In case you are using **Windows operating system**, you should run the following command from Git Bash:
+    ```
+    sh launch_botica.sh
+    ```
+
+    If, on the other hand, you are using a **Unix-based system**, run the following maven command at the root of the project:
     ```
     mvn exec:exec@launch-botica
     ```
 
-7. **Launch the data collector bot.**
+8. **Launch the data collector bot.**
 
    - To use the default file located in `src/main/resources/BOTICAConfig/collector.properties`, run the following maven command at the root of the project:
        ```
