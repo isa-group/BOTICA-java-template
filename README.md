@@ -60,3 +60,11 @@
        ```
        mvn exec:java@launch-collector -Dexec.args="path/to/file"
        ```
+
+9. **Shut down the the BOTICA environment.**
+
+To shut down the running BOTICA environment, run the following maven command at the root of the project:
+
+```
+mvn exec:java@launch-shutdown
+```
