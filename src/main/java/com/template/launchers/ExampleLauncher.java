@@ -24,4 +24,9 @@ public class ExampleLauncher extends AbstractLauncher{
         //message.put(property, value);
         return message;
     }
+
+    @Override
+    protected boolean shutdownCondition() {
+        return true;
+    }
 }
