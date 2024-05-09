@@ -127,16 +127,6 @@
               <mainClass>com.template.main.LaunchShutdown</mainClass>
             </configuration>
           </execution>
-          <!-- Generate template -->
-          <execution>
-            <id>generate-template</id>
-            <goals>
-              <goal>java</goal>
-            </goals>
-            <configuration>
-              <mainClass>com.template.main.GenerateBotTemplates</mainClass>
-            </configuration>
-          </execution>
         </executions>
       </plugin>
     </plugins>
