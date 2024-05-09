@@ -1,6 +1,6 @@
 package com.template.main;
 
-import com.botica.utils.templates.TemplateGenerator;
+import es.us.lsi.botica.utils.templates.TemplateGenerator;
 
 public class GenerateBotTemplates {
 
