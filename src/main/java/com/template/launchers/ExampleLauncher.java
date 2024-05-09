@@ -4,7 +4,7 @@ import java.util.Properties;
 
 import org.json.JSONObject;
 
-import com.botica.launchers.AbstractLauncher;
+import es.us.lsi.botica.launchers.AbstractLauncher;
 
 public class ExampleLauncher extends AbstractLauncher{
 

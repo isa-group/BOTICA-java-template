@@ -2,9 +2,9 @@ package com.template.main;
 
 import java.util.List;
 
-import com.botica.runners.CollectorLoader;
-import com.botica.runners.ShutdownLoader;
-import com.botica.utils.shutdown.ShutdownUtils;
+import es.us.lsi.botica.runners.CollectorLoader;
+import es.us.lsi.botica.runners.ShutdownLoader;
+import es.us.lsi.botica.utils.shutdown.ShutdownUtils;
 
 public class LaunchShutdown {
 
