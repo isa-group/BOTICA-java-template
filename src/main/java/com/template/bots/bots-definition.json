@@ -15,7 +15,15 @@
             ],
             "queueByBot": true
         },
-        "requiredPaths":[
+        "mount": [
+            {
+                "source": "path/to/host/file.extension",
+                "target": "path/to/container/file.extension"
+            },
+            {
+                "source": "path/to/host/directory",
+                "target": "path/to/container/directory"
+            }
         ],
         "bots": [
             {
