@@ -26,13 +26,6 @@
       <artifactId>json</artifactId>
       <version>20231013</version>
     </dependency>
-
-    <!-- https://mvnrepository.com/artifact/es.us.isa/json-mutator -->
-    <dependency>
-      <groupId>es.us.isa</groupId>
-      <artifactId>json-mutator</artifactId>
-      <version>0.0.1</version>
-    </dependency>
   </dependencies>
 
   <build>
@@ -95,7 +88,7 @@
               <goal>exec</goal>
             </goals>
             <configuration>
-              <executable>launch_botica.sh</executable>
+              <executable>launch-botica.sh</executable>
             </configuration>
           </execution>
           <execution>
@@ -104,7 +97,7 @@
               <goal>exec</goal>
             </goals>
             <configuration>
-              <executable>launch_botica.bat</executable>
+              <executable>launch-botica.bat</executable>
             </configuration>
           </execution>
           <!-- Launch shutdown -->
